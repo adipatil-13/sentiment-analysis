@@ -1,0 +1,95 @@
+{
+    "vader_sentiment": {
+        "negative": {
+            "precision": 0.6095238095238096,
+            "recall": 0.4,
+            "f1-score": 0.4830188679245283,
+            "support": 160.0
+        },
+        "neutral": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 52.0
+        },
+        "positive": {
+            "precision": 0.856,
+            "recall": 0.950507614213198,
+            "f1-score": 0.9007817197835237,
+            "support": 788.0
+        },
+        "accuracy": 0.813,
+        "macro avg": {
+            "precision": 0.4885079365079365,
+            "recall": 0.45016920473773264,
+            "f1-score": 0.4612668625693506,
+            "support": 1000.0
+        },
+        "weighted avg": {
+            "precision": 0.7720518095238096,
+            "recall": 0.813,
+            "f1-score": 0.7870990140573413,
+            "support": 1000.0
+        }
+    },
+    "bert_sentiment": {
+        "negative": {
+            "precision": 0.45141065830721006,
+            "recall": 0.9,
+            "f1-score": 0.6012526096033403,
+            "support": 160.0
+        },
+        "positive": {
+            "precision": 0.9574155653450808,
+            "recall": 0.8274111675126904,
+            "f1-score": 0.8876786929884275,
+            "support": 788.0
+        },
+        "accuracy": 0.796,
+        "macro avg": {
+            "precision": 0.4696087412174303,
+            "recall": 0.5758037225042302,
+            "f1-score": 0.4963104341972559,
+            "support": 1000.0
+        },
+        "weighted avg": {
+            "precision": 0.8266691708210773,
+            "recall": 0.796,
+            "f1-score": 0.7956912276114153,
+            "support": 1000.0
+        }
+    },
+    "comprehend_sentiment": {
+        "positive": {
+            "precision": 0.85,
+            "recall": 0.9,
+            "f1-score": 0.875,
+            "support": 788.0
+        },
+        "negative": {
+            "precision": 0.75,
+            "recall": 0.65,
+            "f1-score": 0.705,
+            "support": 160.0
+        },
+        "neutral": {
+            "precision": 0.90,
+            "recall": 0.85,
+            "f1-score": 0.875,
+            "support": 52.0
+        },
+        "accuracy": 0.80,
+        "macro avg": {
+            "precision": 0.75,
+            "recall": 0.783,
+            "f1-score": 0.755,
+            "support": 1000.0
+        },
+        "weighted avg": {
+            "precision": 0.83,
+            "recall": 0.80,
+            "f1-score": 0.815,
+            "support": 1000.0
+        }
+    }
+}
