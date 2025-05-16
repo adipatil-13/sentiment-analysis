@@ -116,7 +116,7 @@ fig = px.box(df, x="comprehend_sentiment", y="Score",
              points="all")
 st.plotly_chart(fig, use_container_width=True)
     
-st.header("🗣️ Frequent Words in Reviews using Word C;oud")
+st.header("🗣️ Frequent Words in Reviews using Word Cloud")
 all_text = " ".join(df["Text"].dropna().values)
 wordcloud = WordCloud(width=1000, height=500, background_color="white").generate(all_text)
 fig, ax = plt.subplots(figsize=(10, 5))
